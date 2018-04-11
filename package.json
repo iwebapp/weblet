@@ -1,0 +1,29 @@
+{
+	"name":"weblet"
+	,"version":"0.0.62"
+	,"description":"Weblet is a Web HTTP Server software"
+	,"bin":{
+		"weblet":"./weblet.sh"
+	}
+	,"scripts":{
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+	,"repository":{
+		"type":"git",
+		"url":"https://github.com/iwebapp/weblet"
+	}
+	,"keywords":[
+		"websocket","weblet","CGI","http","https","server","service","PHP","swordfish"
+	]
+	,"dependencies":{
+		"ws":"x.x.x"
+		,"swordfish":"0.1.23"
+		,"open":"x.x.x"
+	}
+	,"author":"iwebapp"
+	,"license":"ISC"
+	,"bugs":{
+		"url":"https://github.com/iwebapp/weblet/issues"
+	}
+	,"homepage":"https://github.com/iwebapp/weblet"
+}
